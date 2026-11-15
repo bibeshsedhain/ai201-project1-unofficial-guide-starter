@@ -53,6 +53,15 @@ def section_chunks(items):
         yield heading, f"{heading}. {body}"
 
 
+def fixed_chunks(items):
+    """Compare with fixed 220-character windows and 45 characters of overlap."""
+    text = " ".join(f"{heading}. {body}" for heading, body in items)
+    for start in range(0, len(text), 175):
+        yield "Fixed window", text[start:start + 220]
+        if start + 220 >= len(text):
+            break
+
+
 def load_chunks(corpus=CORPUS, splitter=section_chunks):
     manifest = json.loads((corpus / "sources.json").read_text(encoding="utf-8"))
     seen = set()
