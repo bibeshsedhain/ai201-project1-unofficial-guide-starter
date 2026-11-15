@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q1",
+    "question": "Which three multivariable calculus subjects did Yuliya try in her first semester, in order?",
+    "expected": "She started in 18.014, moved to 18.022, then settled in 18.02.",
+    "evidence": ["claaass|Calculus placement"]
+  },
+  {
+    "id": "q2",
+    "question": "In Advice for the Incoming Froshies, which mechanics option covers the same material as 8.01 at a slower pace, and in what format?",
+    "expected": "8.01L covers the same material over a longer period in lecture format.",
+    "evidence": ["advice-for-the-incoming-froshies|Physics with a slower pace"]
+  },
+  {
+    "id": "q3",
+    "question": "According to Suzuko's first-week post, what were the two environmental problems in the Terrascope project and where?",
+    "expected": "Water scarcity and heat waves in the Navajo Nation.",
+    "evidence": ["my-first-week-of-classes-at-mit|Terrascope project"]
+  },
+  {
+    "id": "q4",
+    "question": "In Exploring Classes, which tool combines Firehose and CourseRoad, and what two details can students look up in MIT Subject Evaluations?",
+    "expected": "FireRoad combines Firehose and CourseRoad. Subject Evaluations shows course ratings and reported weekly homework hours.",
+    "evidence": ["exploring-classes|Long-term course planning", "exploring-classes|Looking up workload"]
+  },
+  {
+    "id": "q5",
+    "question": "Compare the student accounts of three learning communities. What was Richard's DesignPlus project, what was Suzuko's Terrascope project, and what were the two ESG physics subjects in the guest post?",
+    "expected": "DesignPlus worked on a vertical garden in Haiti. Terrascope worked on water scarcity and heat waves in the Navajo Nation. The ESG student took 8.012 in fall and 8.022 in spring.",
+    "evidence": ["pictures-from-a-month-into-classes|DesignPlus vertical garden", "my-first-week-of-classes-at-mit|Terrascope project", "guest-post-reflecting-on-the-great-memories-of-my-freshman-year|Fall and spring physics"]
+  }
+]
