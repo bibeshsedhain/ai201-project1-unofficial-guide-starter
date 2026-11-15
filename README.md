@@ -316,7 +316,6 @@ The section-anchored design made source IDs a required part of each chunk. That 
 ## AI Usage
 
 
-
- **Checking the report before submission.** I verified a citation and compare two partial answers. CodexIchecked Q1 against Yuliya’s post and confirmed that she took 18.014, then 18.022, then 18.02. For Q4, both evidence groups reached the model, which returned only the FireRoad passage. For Q5, only one of the three evidence groups reached the model. Codex suggested testing a per-part evidence check on Q4 first because it can be evaluated against the existing retrieved passages. [Yuliya’s post](https://mitadmissions.org/blogs/entry/claaass/) · [Saved evaluation run](evaluation/run.json)
-
-I used the assignment requirements to set the scope, chose the course fork for the work, and specified the final deliverables. Codex handled the implementation, testing, and first drafts. I also asked Codex to edit the planning write-up and this disclosure for clarity. The [original implementation notes](IMPLEMENTATION.md) and [ground truth](evaluation/questions.json) record the technical decisions that were committed before coding.
+1. AI helped clarify the scope and plan the coding implmentation
+2. it helped me figure out and map the exact delivarables.
+3. it helped me create a video script and final reports 
