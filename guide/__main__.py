@@ -50,9 +50,10 @@ def main():
         return generator()(messages)
 
     def respond(question, previous=None):
-        context = f"Previous question: {previous}\nFollow-up: {question}" if previous and FOLLOW_UP.search(question) else question
+        previous = previous if previous and FOLLOW_UP.search(question) else None
+        context = f"Previous question: {previous}\nFollow-up: {question}" if previous else question
         matches = index.search(context, mode=args.mode, source=args.source)
-        result = answer(context, matches, complete)
+        result = answer(question, matches, complete, previous=previous)
         print(render(result))
         if args.show_retrieval:
             print_matches(matches)
