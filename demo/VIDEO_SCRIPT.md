@@ -1,6 +1,6 @@
 # Demo video script
 
-This script follows the prompts and evidence captured from the running guide. The bundled video uses synthesized narration.
+Use this script to record your own voice walkthrough. The prompts and evidence come from the running guide, and the timestamps are approximate.
 
 ## 0:00 — The Unofficial Guide
 
@@ -50,4 +50,4 @@ The README lists all five questions, what a correct answer needed to contain, an
 
 The project also compares hybrid retrieval and fixed windows against the same semantic baseline. The source filter narrows candidate passages before ranking, and the chat session can carry a previous question into a follow-up. The evaluation command reruns the answers and records the evidence. Open the README for the setup, individual results, limitations, and bonus comparisons. The raw run log also records all five returned chunks for each retrieval strategy so someone else can check the comparison directly.
 
-**Total running time**  3:27
+**Estimated running time**  3:27

@@ -3,7 +3,9 @@
 
 Ask a plain-language question about choosing subjects, getting academic support, or joining a first-year learning community at MIT. The guide answers with evidence from ten student-authored MIT Admissions blogs. The course catalog shows prerequisites and approved subjects. These accounts describe decisions that are harder to look up, such as why a student switched calculus levels or how a study group grew out of a small physics class. Each post reflects its author and time period.
 
-[Demo video](demo/unofficial-guide-demo.mp4) · [Video script](demo/VIDEO_SCRIPT.md) · [Planning draft](planning.md) · [Evaluation run](evaluation/run.json)
+[Video script](demo/VIDEO_SCRIPT.md) · [Planning draft](planning.md) · [Evaluation run](evaluation/run.json)
+
+The recorded demo link is pending.
 
 ## Run locally
 
