@@ -1,14 +1,14 @@
 # Project 1 Planning
 
-This Codex-assisted working draft is based on the [design notes committed before implementation](IMPLEMENTATION.md). The course asks the student to write the final plan in their own words. The draft records the actual project decisions and is available for that review.
+This write-up was revised with Codex after the build. The [original design notes](IMPLEMENTATION.md) and [five test questions](evaluation/questions.json) were committed before the pipeline code.
 
 ## Domain
 
-The domain is MIT students' first-year academic transition. Course catalogs show what is offered, but students often use peer advice to decide how to pace technical requirements, seek help, and pick a first-year community. The guide makes those individual experiences easy to find and trace back to the writer.
+The guide is about how MIT students get through their first year. A catalog can tell you which calculus classes exist. It takes a student account to explain why someone tried three levels before finding a good fit, or what it felt like to study physics with the same small group for two semesters. Those are the kinds of questions the guide should answer, with a link back to the student who described the experience.
 
 ## Documents
 
-The local files in [documents](documents) contain curated paraphrases of the first-person experiences in these posts. The source manifest maps each local file to its original URL.
+The ten posts cover class choices, academic help, and first-year learning communities. Each [local note](documents) summarizes one post in short sections. The [source manifest](documents/sources.json) records where each note came from so the guide can cite the original post.
 
 - How to decide which classes to take — [local notes](documents/how-to-pick-classes.txt) · [original post](https://mitadmissions.org/blogs/entry/how-to-pick-classes/)
 - Before you Register for Classes: Tools, Tips, and Resources — [local notes](documents/claaass.txt) · [original post](https://mitadmissions.org/blogs/entry/claaass/)
@@ -23,11 +23,11 @@ The local files in [documents](documents) contain curated paraphrases of the fir
 
 ## Chunking Strategy
 
-Use a 420-character cap, including the section title, and 0 characters of overlap. Each note section describes a single class decision or experience, usually in two to three sentences. Retaining the section heading preserves the topic, and a 420-character ceiling also leaves room for the encoder's tokenization. Copying text across section boundaries would blend unrelated subjects such as calculus and PE. If a future section exceeds 420 characters, split on a word boundary and repeat its heading.
+Keep each note section together when it fits within 420 characters, including its heading. Most sections are just two or three sentences. For example, the calculus placement section has the names of all three courses and the order Yuliya tried them. Use zero overlap because the next section can be about a different topic, such as PE or advising. If a section is too long, break it between words and repeat the heading on the next chunk.
 
 ## Retrieval Approach
 
-Use sentence-transformers/all-MiniLM-L6-v2 locally. Store normalized embeddings and source metadata in a Chroma cosine collection. Retrieve the top five chunks. Those five leave room for multi-source questions without sending the full corpus into generation. In production, compare recall on MIT abbreviations and course numbers, performance on multilingual questions, and truncation rates on longer pages. A hosted embedding API can simplify scaling and multilingual coverage, with per-request cost, network latency and external data handling. A local model can keep queries on-device but needs its own hardware and capacity planning.
+Use `sentence-transformers/all-MiniLM-L6-v2` to embed the notes and questions locally. Store the normalized vectors and source details in Chroma, then retrieve the five closest chunks by cosine distance. Five gives a question room to pull from multiple posts while keeping the prompt small enough to inspect. For a larger campus guide, test how well the model handles course numbers, student abbreviations, and questions in other languages. Longer source pages would also make the model’s input limit more important. For deployment, compare local hardware and response times with API fees, network latency, and whether queries can leave the device.
 
 ## Evaluation Plan
 
@@ -37,19 +37,19 @@ Use sentence-transformers/all-MiniLM-L6-v2 locally. Store normalized embeddings 
 4. **In Exploring Classes, which tool combines Firehose and CourseRoad, and what two details can students look up in MIT Subject Evaluations?** FireRoad combines Firehose and CourseRoad. Subject Evaluations shows course ratings and reported weekly homework hours.
 5. **Compare the student accounts of three learning communities. What was Richard's DesignPlus project, what was Suzuko's Terrascope project, and what were the two ESG physics subjects in the guest post?** DesignPlus worked on a vertical garden in Haiti. Terrascope worked on water scarcity and heat waves in the Navajo Nation. The ESG student took 8.012 in fall and 8.022 in spring.
 
-A response is accurate when it gives every requested fact, partially accurate when it gives some supported facts, and inaccurate when it gives a wrong fact or refuses an answerable question. An extra out-of-scope probe checks refusal.
+Check each answer for all the facts listed above. A correct subset earns partially accurate. A wrong fact or a refusal on an answerable question earns inaccurate. Ask a separate question about the World Cup to check that the guide declines a question outside the collection.
 
 ## Anticipated Challenges
 
-1. Course codes such as 8.01 and 8.01L differ by one character. Dense similarity could rank a passage about the wrong course above the evidence. Inspect retrieval scores and later compare with BM25 that retains course codes.
-2. A comparison of three learning communities needs passages from three authors. A fixed top-five budget may favor two well-matched sources and leave the third outside the prompt.
-3. Student experiences span different years. Preserve authorship and evidence links so a historical anecdote can be read in context.
+1. The difference between 8.01 and 8.01L matters. Since the codes look similar, vector search may turn up the wrong course. Check the ranked passages and compare them with BM25, which can match the full code.
+2. A question about three learning communities needs evidence from three posts. Several high-ranking chunks from one post could fill the five available slots before the other posts reach the prompt.
+3. The posts were written in different years. A source link lets the reader see when the student had that experience and judge whether it still applies.
 
 ## AI Tool Plan
 
-- Give Codex the source manifest, the section format, and the letter of the chunking requirement. Ask for a loader and chunker. Use the emitted JSON to inspect lengths and confirm the original URLs survive.
-- Give Codex the top-five requirement and the evaluation queries. Ask for a persistent Chroma index and inspect the three retrieval traces before wiring up the generation model.
-- Give Codex the evidence-only requirement and ask it to generate an extractive answer with validated source IDs. Review the exact evidence sentences for a supported answer and an unsupported question.
+- Use Codex to help build the loader and splitter from the note format and the 420-character limit. Check the printed chunks for intact advice and a usable link to the original post.
+- Use Codex to help set up MiniLM and Chroma. Check the ranking on three questions by opening the passages and looking for the requested facts. A low distance alone does not make a passage relevant.
+- Use Codex to connect the model and citation renderer. Check an in-scope answer against its cited post and use the World Cup question to check refusal.
 
 ## Architecture
 
