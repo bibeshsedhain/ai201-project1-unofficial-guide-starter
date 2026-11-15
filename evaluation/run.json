@@ -1,0 +1,1277 @@
+{
+  "backend": "local",
+  "chunk_counts": {
+    "section": 50,
+    "fixed": 70
+  },
+  "evaluation": [
+    {
+      "id": "q1",
+      "question": "Which three multivariable calculus subjects did Yuliya try in her first semester, in order?",
+      "expected": "She started in 18.014, moved to 18.022, then settled in 18.02.",
+      "evidence": [
+        "claaass|Calculus placement"
+      ],
+      "response": "Answer: Yuliya tried three versions of multivariable calculus in the first semester. The author started in 18.014, transferred to 18.022, and then settled on 18.02. The experience is presented as a reason to adjust levels when the pace or format is a poor fit. [1]\nYuliya's first schedule packed in technical GIRs to take advantage of Pass/No Record. The plan felt overloaded within a month, and the author worked with an advisor to shed courses or move down a level. Yuliya advises leaving room to explore interests. [1]\nThe author sorts elective choices into three questions: whether the class fits their circumstances that semester, whether it will be enjoyable and engaging, and what they will gain from taking it. [2]\nSources:\n  [1] Before you Register for Classes: Tools, Tips, and Resources — https://mitadmissions.org/blogs/entry/claaass/\n  [2] How I chose my classes — https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+      "retrieval": {
+        "section_semantic": {
+          "covered": [
+            [
+              "claaass",
+              [
+                "18.014",
+                "18.022",
+                "18.02"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "claaass:1",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Calculus placement",
+                "position": 1,
+                "text": "Calculus placement. Yuliya tried three versions of multivariable calculus in the first semester. The author started in 18.014, transferred to 18.022, and then settled on 18.02. The experience is presented as a reason to adjust levels when the pace or format is a poor fit."
+              },
+              "distance": 0.18162792921066284
+            },
+            {
+              "chunk": {
+                "id": "claaass:2",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Balancing technical subjects",
+                "position": 2,
+                "text": "Balancing technical subjects. Yuliya's first schedule packed in technical GIRs to take advantage of Pass/No Record. The plan felt overloaded within a month, and the author worked with an advisor to shed courses or move down a level. Yuliya advises leaving room to explore interests."
+              },
+              "distance": 0.5238956809043884
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:1",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Three questions",
+                "position": 1,
+                "text": "Three questions. The author sorts elective choices into three questions: whether the class fits their circumstances that semester, whether it will be enjoyable and engaging, and what they will gain from taking it."
+              },
+              "distance": 0.5876820087432861
+            },
+            {
+              "chunk": {
+                "id": "claaass:3",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Switching levels",
+                "position": 3,
+                "text": "Switching levels. Yuliya advises contacting the instructor of the class you are moving into so they can tell you whether you need to make up material. The post gives physics and chemistry level changes as examples alongside the author's calculus changes."
+              },
+              "distance": 0.5922492146492004
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:2",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Fall and spring physics",
+                "position": 2,
+                "text": "Fall and spring physics. The blogger took 8.012, a proof-oriented mechanics course, in the fall through ESG. The same five students stayed together and took 8.022 in the spring with the same professor in the same room."
+              },
+              "distance": 0.6241921186447144
+            }
+          ]
+        },
+        "section_hybrid": {
+          "covered": [
+            [
+              "claaass",
+              [
+                "18.014",
+                "18.022",
+                "18.02"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "claaass:1",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Calculus placement",
+                "position": 1,
+                "text": "Calculus placement. Yuliya tried three versions of multivariable calculus in the first semester. The author started in 18.014, transferred to 18.022, and then settled on 18.02. The experience is presented as a reason to adjust levels when the pace or format is a poor fit."
+              },
+              "distance": 0.18162792921066284
+            },
+            {
+              "chunk": {
+                "id": "claaass:2",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Balancing technical subjects",
+                "position": 2,
+                "text": "Balancing technical subjects. Yuliya's first schedule packed in technical GIRs to take advantage of Pass/No Record. The plan felt overloaded within a month, and the author worked with an advisor to shed courses or move down a level. Yuliya advises leaving room to explore interests."
+              },
+              "distance": 0.5238956809043884
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:1",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Three questions",
+                "position": 1,
+                "text": "Three questions. The author sorts elective choices into three questions: whether the class fits their circumstances that semester, whether it will be enjoyable and engaging, and what they will gain from taking it."
+              },
+              "distance": 0.5876820087432861
+            },
+            {
+              "chunk": {
+                "id": "claaass:3",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Switching levels",
+                "position": 3,
+                "text": "Switching levels. Yuliya advises contacting the instructor of the class you are moving into so they can tell you whether you need to make up material. The post gives physics and chemistry level changes as examples alongside the author's calculus changes."
+              },
+              "distance": 0.5922492146492004
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:3",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Advisor's referrals",
+                "position": 3,
+                "text": "Advisor's referrals. When Veronica was uncertain about a major, the first-year advisor provided contacts in Course 8 and Course 18. Veronica did not follow up and later wished they had explored these options before declaring Course 2, Mechanical Engineering."
+              },
+              "distance": 0.6539105176925659
+            }
+          ]
+        },
+        "fixed_semantic": {
+          "covered": [
+            [
+              "claaass",
+              [
+                "18.014",
+                "18.022",
+                "18.02"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "claaass:1",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Fixed window",
+                "position": 1,
+                "text": "Calculus placement. Yuliya tried three versions of multivariable calculus in the first semester. The author started in 18.014, transferred to 18.022, and then settled on 18.02. The experience is presented as a reason to "
+              },
+              "distance": 0.18492531776428223
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:2",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Fixed window",
+                "position": 2,
+                "text": "visor can offer a student's perspective, while the faculty advisor helps with academic planning. Choosing calculus. The author suggests considering the 18.01A/18.02A sequence when a review of single-variable calculus wou"
+              },
+              "distance": 0.5423628091812134
+            },
+            {
+              "chunk": {
+                "id": "claaass:2",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Fixed window",
+                "position": 2,
+                "text": ". The experience is presented as a reason to adjust levels when the pace or format is a poor fit. Balancing technical subjects. Yuliya's first schedule packed in technical GIRs to take advantage of Pass/No Record. The pl"
+              },
+              "distance": 0.5706562995910645
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:1",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Fixed window",
+                "position": 1,
+                "text": "Three questions. The author sorts elective choices into three questions: whether the class fits their circumstances that semester, whether it will be enjoyable and engaging, and what they will gain from taking it. Schedu"
+              },
+              "distance": 0.592622697353363
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:4",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Fixed window",
+                "position": 4,
+                "text": "r, the first-year advisor provided contacts in Course 8 and Course 18. Veronica did not follow up and later wished they had explored these options before declaring Course 2, Mechanical Engineering. Workload priorities. V"
+              },
+              "distance": 0.6180057525634766
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "question": "In Advice for the Incoming Froshies, which mechanics option covers the same material as 8.01 at a slower pace, and in what format?",
+      "expected": "8.01L covers the same material over a longer period in lecture format.",
+      "evidence": [
+        "advice-for-the-incoming-froshies|Physics with a slower pace"
+      ],
+      "response": "Answer: The author recommends 8.01L to a student who felt underprepared in physics. The post describes it as covering the same material as 8.01 over more time in a lecture format. [1]\nSources:\n  [1] Advice for the Incoming Froshies — https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+      "retrieval": {
+        "section_semantic": {
+          "covered": [
+            [
+              "advice-for-the-incoming-froshies",
+              [
+                "8.01L",
+                "same material",
+                "lecture format"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:4",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Physics with a slower pace",
+                "position": 4,
+                "text": "Physics with a slower pace. The author recommends 8.01L to a student who felt underprepared in physics. The post describes it as covering the same material as 8.01 over more time in a lecture format."
+              },
+              "distance": 0.48656219244003296
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:2",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Choosing calculus",
+                "position": 2,
+                "text": "Choosing calculus. The author suggests considering the 18.01A/18.02A sequence when a review of single-variable calculus would help. The post also describes moving to 18.01 if the faster format proves unsuitable."
+              },
+              "distance": 0.6281002163887024
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:3",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Chemistry options",
+                "position": 3,
+                "text": "Chemistry options. The author describes 5.111 as introductory chemistry with more attention to liquid-state systems and 5.112 as an advanced option. The author personally enjoyed 3.091 for its focus on solid-state materials."
+              },
+              "distance": 0.6293964982032776
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:5",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Hands-on growth",
+                "position": 5,
+                "text": "Hands-on growth. The author ultimately enjoyed challenging practical work in Mechanical Engineering. Working outside their comfort zone helped Veronica better appreciate what it takes to make a design work."
+              },
+              "distance": 0.7628653049468994
+            },
+            {
+              "chunk": {
+                "id": "claaass:3",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Switching levels",
+                "position": 3,
+                "text": "Switching levels. Yuliya advises contacting the instructor of the class you are moving into so they can tell you whether you need to make up material. The post gives physics and chemistry level changes as examples alongside the author's calculus changes."
+              },
+              "distance": 0.7914462089538574
+            }
+          ]
+        },
+        "section_hybrid": {
+          "covered": [
+            [
+              "advice-for-the-incoming-froshies",
+              [
+                "8.01L",
+                "same material",
+                "lecture format"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:4",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Physics with a slower pace",
+                "position": 4,
+                "text": "Physics with a slower pace. The author recommends 8.01L to a student who felt underprepared in physics. The post describes it as covering the same material as 8.01 over more time in a lecture format."
+              },
+              "distance": 0.48656219244003296
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:2",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Fall and spring physics",
+                "position": 2,
+                "text": "Fall and spring physics. The blogger took 8.012, a proof-oriented mechanics course, in the fall through ESG. The same five students stayed together and took 8.022 in the spring with the same professor in the same room."
+              },
+              "distance": 0.8070868849754333
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:3",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Chemistry options",
+                "position": 3,
+                "text": "Chemistry options. The author describes 5.111 as introductory chemistry with more attention to liquid-state systems and 5.112 as an advanced option. The author personally enjoyed 3.091 for its focus on solid-state materials."
+              },
+              "distance": 0.6293964982032776
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:2",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Choosing calculus",
+                "position": 2,
+                "text": "Choosing calculus. The author suggests considering the 18.01A/18.02A sequence when a review of single-variable calculus would help. The post also describes moving to 18.01 if the faster format proves unsuitable."
+              },
+              "distance": 0.6281002163887024
+            },
+            {
+              "chunk": {
+                "id": "claaass:1",
+                "source_id": "claaass",
+                "title": "Before you Register for Classes: Tools, Tips, and Resources",
+                "url": "https://mitadmissions.org/blogs/entry/claaass/",
+                "section": "Calculus placement",
+                "position": 1,
+                "text": "Calculus placement. Yuliya tried three versions of multivariable calculus in the first semester. The author started in 18.014, transferred to 18.022, and then settled on 18.02. The experience is presented as a reason to adjust levels when the pace or format is a poor fit."
+              },
+              "distance": 0.8550779819488525
+            }
+          ]
+        },
+        "fixed_semantic": {
+          "covered": [
+            [
+              "advice-for-the-incoming-froshies",
+              [
+                "8.01L",
+                "same material",
+                "lecture format"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:5",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Fixed window",
+                "position": 5,
+                "text": "terials. Physics with a slower pace. The author recommends 8.01L to a student who felt underprepared in physics. The post describes it as covering the same material as 8.01 over more time in a lecture format. Advising fo"
+              },
+              "distance": 0.5696961879730225
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:4",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Fixed window",
+                "position": 4,
+                "text": ".111 as introductory chemistry with more attention to liquid-state systems and 5.112 as an advanced option. The author personally enjoyed 3.091 for its focus on solid-state materials. Physics with a slower pace. The auth"
+              },
+              "distance": 0.6826509237289429
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:3",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Fixed window",
+                "position": 3,
+                "text": "when a review of single-variable calculus would help. The post also describes moving to 18.01 if the faster format proves unsuitable. Chemistry options. The author describes 5.111 as introductory chemistry with more atte"
+              },
+              "distance": 0.6879225969314575
+            },
+            {
+              "chunk": {
+                "id": "24-things-i-learned-in-my-first-semester-and-a-half:5",
+                "source_id": "24-things-i-learned-in-my-first-semester-and-a-half",
+                "title": "24 Things I Learned in My First Semester and a Half",
+                "url": "https://mitadmissions.org/blogs/entry/24-things-i-learned-in-my-first-semester-and-a-half/",
+                "section": "Fixed window",
+                "position": 5,
+                "text": " author did not earn credit for 18.01 or 8.01 and ended up valuing the math and physics foundation. Early classes. The author warns against filling a schedule with 9 a.m. classes based on an optimistic view of one's slee"
+              },
+              "distance": 0.7564669847488403
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:4",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Fixed window",
+                "position": 4,
+                "text": "r, the first-year advisor provided contacts in Course 8 and Course 18. Veronica did not follow up and later wished they had explored these options before declaring Course 2, Mechanical Engineering. Workload priorities. V"
+              },
+              "distance": 0.7702966332435608
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "question": "According to Suzuko's first-week post, what were the two environmental problems in the Terrascope project and where?",
+      "expected": "Water scarcity and heat waves in the Navajo Nation.",
+      "evidence": [
+        "my-first-week-of-classes-at-mit|Terrascope project"
+      ],
+      "response": "Answer: Suzuko describes Terrascope as a first-year learning community for environmental sustainability. The cohort's group project centered on water scarcity and heat waves in the Navajo Nation. [1]\nSuzuko sees Terrascope as a continuation of their Discover Course 1 pre-orientation experience because both involve group work on environmental problems. The author expected to grow by tackling open-ended problems with a group. [1]\nSources:\n  [1] my “first” “week” of “classes” at mit — https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+      "retrieval": {
+        "section_semantic": {
+          "covered": [
+            [
+              "my-first-week-of-classes-at-mit",
+              [
+                "water scarcity",
+                "heat waves",
+                "Navajo Nation"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:1",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Terrascope project",
+                "position": 1,
+                "text": "Terrascope project. Suzuko describes Terrascope as a first-year learning community for environmental sustainability. The cohort's group project centered on water scarcity and heat waves in the Navajo Nation."
+              },
+              "distance": 0.3262563943862915
+            },
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:2",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Group project transition",
+                "position": 2,
+                "text": "Group project transition. Suzuko sees Terrascope as a continuation of their Discover Course 1 pre-orientation experience because both involve group work on environmental problems. The author expected to grow by tackling open-ended problems with a group."
+              },
+              "distance": 0.36594247817993164
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:2",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "First-year communities",
+                "position": 2,
+                "text": "First-year communities. Veronica knew students who enjoyed Terrascope and DesignPlus and sees these communities as low-pressure ways to meet classmates and faculty. DesignPlus staff let Veronica join friends at weekly lunches despite being outside the group."
+              },
+              "distance": 0.7081745266914368
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:4",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Using campus resources",
+                "position": 4,
+                "text": "Using campus resources. One reason the author chose some hardware courses was access to resources that would be hard to reproduce independently, including cleanroom equipment and quantum optics hardware. Individual feedback and instructor access also mattered."
+              },
+              "distance": 0.7280343770980835
+            },
+            {
+              "chunk": {
+                "id": "advice-for-the-incoming-froshies:5",
+                "source_id": "advice-for-the-incoming-froshies",
+                "title": "Advice for the Incoming Froshies",
+                "url": "https://mitadmissions.org/blogs/entry/advice-for-the-incoming-froshies/",
+                "section": "Advising formats",
+                "position": 5,
+                "text": "Advising formats. The author discusses traditional advising, advising seminars, and communities such as Terrascope. A credit-bearing seminar may be appealing, but the author says to budget time for its work alongside regular classes."
+              },
+              "distance": 0.771125316619873
+            }
+          ]
+        },
+        "section_hybrid": {
+          "covered": [
+            [
+              "my-first-week-of-classes-at-mit",
+              [
+                "water scarcity",
+                "heat waves",
+                "Navajo Nation"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:1",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Terrascope project",
+                "position": 1,
+                "text": "Terrascope project. Suzuko describes Terrascope as a first-year learning community for environmental sustainability. The cohort's group project centered on water scarcity and heat waves in the Navajo Nation."
+              },
+              "distance": 0.3262563943862915
+            },
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:2",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Group project transition",
+                "position": 2,
+                "text": "Group project transition. Suzuko sees Terrascope as a continuation of their Discover Course 1 pre-orientation experience because both involve group work on environmental problems. The author expected to grow by tackling open-ended problems with a group."
+              },
+              "distance": 0.36594247817993164
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:2",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "First-year communities",
+                "position": 2,
+                "text": "First-year communities. Veronica knew students who enjoyed Terrascope and DesignPlus and sees these communities as low-pressure ways to meet classmates and faculty. DesignPlus staff let Veronica join friends at weekly lunches despite being outside the group."
+              },
+              "distance": 0.7081745266914368
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:4",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Office hours in ESG",
+                "position": 4,
+                "text": "Office hours in ESG. During a busy week, the professor held office hours after 8.012. The students were about to skip the session for lunch, so the professor prepared food in the ESG kitchen while the group stayed to work."
+              },
+              "distance": 0.8409808278083801
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:1",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "ESG community",
+                "position": 1,
+                "text": "ESG community. The blogger joined the Experimental Study Group (ESG) and took General Institute Requirements in small classes alongside other ESG students. The post mentions Friday community lunches cooked by students and a shared space where first-years could spend time."
+              },
+              "distance": 0.8438237309455872
+            }
+          ]
+        },
+        "fixed_semantic": {
+          "covered": [
+            [
+              "my-first-week-of-classes-at-mit",
+              [
+                "water scarcity",
+                "heat waves",
+                "Navajo Nation"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:1",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Fixed window",
+                "position": 1,
+                "text": "Terrascope project. Suzuko describes Terrascope as a first-year learning community for environmental sustainability. The cohort's group project centered on water scarcity and heat waves in the Navajo Nation. Group projec"
+              },
+              "distance": 0.3231903314590454
+            },
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:2",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Fixed window",
+                "position": 2,
+                "text": "heat waves in the Navajo Nation. Group project transition. Suzuko sees Terrascope as a continuation of their Discover Course 1 pre-orientation experience because both involve group work on environmental problems. The aut"
+              },
+              "distance": 0.43468552827835083
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:2",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Fixed window",
+                "position": 2,
+                "text": "nts before declaring a major. First-year communities. Veronica knew students who enjoyed Terrascope and DesignPlus and sees these communities as low-pressure ways to meet classmates and faculty. DesignPlus staff let Vero"
+              },
+              "distance": 0.659433126449585
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:5",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Fixed window",
+                "position": 5,
+                "text": "echanical Engineering. Workload priorities. Veronica prioritized learning well, sleeping a reasonable amount, and having time outside classes. The extensive Course 2 requirements made it harder to fit in exploratory clas"
+              },
+              "distance": 0.7530144453048706
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:5",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Fixed window",
+                "position": 5,
+                "text": "ion the instructor gives to teaching. Using campus resources. One reason the author chose some hardware courses was access to resources that would be hard to reproduce independently, including cleanroom equipment and qua"
+              },
+              "distance": 0.7575973272323608
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "question": "In Exploring Classes, which tool combines Firehose and CourseRoad, and what two details can students look up in MIT Subject Evaluations?",
+      "expected": "FireRoad combines Firehose and CourseRoad. Subject Evaluations shows course ratings and reported weekly homework hours.",
+      "evidence": [
+        "exploring-classes|Long-term course planning",
+        "exploring-classes|Looking up workload"
+      ],
+      "response": "Answer: The author uses CourseRoad to sketch several possible multi-year class plans. FireRoad combines functions of Firehose and CourseRoad, and the author describes it as a way to lay out multiple years and see projected class times. [1]\nSources:\n  [1] Exploring Classes — https://mitadmissions.org/blogs/entry/exploring-classes/",
+      "retrieval": {
+        "section_semantic": {
+          "covered": [
+            [
+              "exploring-classes",
+              [
+                "FireRoad",
+                "Firehose",
+                "CourseRoad"
+              ]
+            ],
+            [
+              "exploring-classes",
+              [
+                "ratings",
+                "weekly homework hours"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "exploring-classes:2",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Looking up workload",
+                "position": 2,
+                "text": "Looking up workload. MIT Subject Evaluations can help students compare courses. The post describes overall ratings and reported weekly homework hours as two pieces of information available for recent subjects."
+              },
+              "distance": 0.3294944167137146
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:1",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Long-term course planning",
+                "position": 1,
+                "text": "Long-term course planning. The author uses CourseRoad to sketch several possible multi-year class plans. FireRoad combines functions of Firehose and CourseRoad, and the author describes it as a way to lay out multiple years and see projected class times."
+              },
+              "distance": 0.3303018808364868
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:4",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Course catalog",
+                "position": 4,
+                "text": "Course catalog. The blogger finds the course catalog useful for listing subjects in a department subfield once a student understands MIT's numbering system. The post describes it as less beginner-friendly than the other planning tools."
+              },
+              "distance": 0.41589218378067017
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:3",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Past students' experience",
+                "position": 3,
+                "text": "Past students' experience. The author prefers asking someone who already took the course. When that is impractical, the author uses course evaluation scores out of seven as a starting point and also checks the syllabus and how much attention the instructor gives to teaching."
+              },
+              "distance": 0.5155165195465088
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:3",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Major requirements",
+                "position": 3,
+                "text": "Major requirements. MIT Degree Charts list major requirements and can help students decide which undergraduate electives to explore. Department websites also sometimes show suggested paths for getting through a program."
+              },
+              "distance": 0.5413224697113037
+            }
+          ]
+        },
+        "section_hybrid": {
+          "covered": [
+            [
+              "exploring-classes",
+              [
+                "FireRoad",
+                "Firehose",
+                "CourseRoad"
+              ]
+            ],
+            [
+              "exploring-classes",
+              [
+                "ratings",
+                "weekly homework hours"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "exploring-classes:2",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Looking up workload",
+                "position": 2,
+                "text": "Looking up workload. MIT Subject Evaluations can help students compare courses. The post describes overall ratings and reported weekly homework hours as two pieces of information available for recent subjects."
+              },
+              "distance": 0.3294944167137146
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:1",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Long-term course planning",
+                "position": 1,
+                "text": "Long-term course planning. The author uses CourseRoad to sketch several possible multi-year class plans. FireRoad combines functions of Firehose and CourseRoad, and the author describes it as a way to lay out multiple years and see projected class times."
+              },
+              "distance": 0.3303018808364868
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:3",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Major requirements",
+                "position": 3,
+                "text": "Major requirements. MIT Degree Charts list major requirements and can help students decide which undergraduate electives to explore. Department websites also sometimes show suggested paths for getting through a program."
+              },
+              "distance": 0.5413224697113037
+            },
+            {
+              "chunk": {
+                "id": "how-to-pick-classes:3",
+                "source_id": "how-to-pick-classes",
+                "title": "How to decide which classes to take",
+                "url": "https://mitadmissions.org/blogs/entry/how-to-pick-classes/",
+                "section": "Prerequisite chains",
+                "position": 3,
+                "text": "Prerequisite chains. CJ recommends using CourseRoad or degree charts to see which requirements unlock later subjects. Biological Engineering is the author's example of a major where a long chain of prerequisites makes looking ahead helpful."
+              },
+              "distance": 0.5677782297134399
+            },
+            {
+              "chunk": {
+                "id": "how-to-pick-classes:2",
+                "source_id": "how-to-pick-classes",
+                "title": "How to decide which classes to take",
+                "url": "https://mitadmissions.org/blogs/entry/how-to-pick-classes/",
+                "section": "Trying out subjects",
+                "position": 2,
+                "text": "Trying out subjects. CJ calls sampling classes before deciding what to keep class shopping. Because first-year students have a credit cap, the author says they may need to drop a subject before adding another. Visiting an opening lecture can help students hear the syllabus before committing."
+              },
+              "distance": 0.6202684640884399
+            }
+          ]
+        },
+        "fixed_semantic": {
+          "covered": [
+            [
+              "exploring-classes",
+              [
+                "FireRoad",
+                "Firehose",
+                "CourseRoad"
+              ]
+            ],
+            [
+              "exploring-classes",
+              [
+                "ratings",
+                "weekly homework hours"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "exploring-classes:1",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Fixed window",
+                "position": 1,
+                "text": "Long-term course planning. The author uses CourseRoad to sketch several possible multi-year class plans. FireRoad combines functions of Firehose and CourseRoad, and the author describes it as a way to lay out multiple ye"
+              },
+              "distance": 0.3240765333175659
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:2",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Fixed window",
+                "position": 2,
+                "text": " describes it as a way to lay out multiple years and see projected class times. Looking up workload. MIT Subject Evaluations can help students compare courses. The post describes overall ratings and reported weekly homew"
+              },
+              "distance": 0.3531530499458313
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:5",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Fixed window",
+                "position": 5,
+                "text": " The blogger finds the course catalog useful for listing subjects in a department subfield once a student understands MIT's numbering system. The post describes it as less beginner-friendly than the other planning tools."
+              },
+              "distance": 0.41159558296203613
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:4",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Fixed window",
+                "position": 4,
+                "text": "s and can help students decide which undergraduate electives to explore. Department websites also sometimes show suggested paths for getting through a program. Course catalog. The blogger finds the course catalog useful "
+              },
+              "distance": 0.48873066902160645
+            },
+            {
+              "chunk": {
+                "id": "exploring-classes:3",
+                "source_id": "exploring-classes",
+                "title": "Exploring Classes",
+                "url": "https://mitadmissions.org/blogs/entry/exploring-classes/",
+                "section": "Fixed window",
+                "position": 3,
+                "text": "bes overall ratings and reported weekly homework hours as two pieces of information available for recent subjects. Major requirements. MIT Degree Charts list major requirements and can help students decide which undergra"
+              },
+              "distance": 0.5383530855178833
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "question": "Compare the student accounts of three learning communities. What was Richard's DesignPlus project, what was Suzuko's Terrascope project, and what were the two ESG physics subjects in the guest post?",
+      "expected": "DesignPlus worked on a vertical garden in Haiti. Terrascope worked on water scarcity and heat waves in the Navajo Nation. The ESG student took 8.012 in fall and 8.022 in spring.",
+      "evidence": [
+        "pictures-from-a-month-into-classes|DesignPlus vertical garden",
+        "my-first-week-of-classes-at-mit|Terrascope project",
+        "guest-post-reflecting-on-the-great-memories-of-my-freshman-year|Fall and spring physics"
+      ],
+      "response": "Answer: The blogger often worked on physics problem sets with the four other 8.012 students. They also started getting a meal together every week and got to know one another outside class. [1]\nThe blogger joined the Experimental Study Group (ESG) and took General Institute Requirements in small classes alongside other ESG students. The post mentions Friday community lunches cooked by students and a shared space where first-years could spend time. [1]\nFood-accessibility peers, the DesignPlus cohort, and the Chocolate City living community helped Richard find a place at MIT. Richard describes exploring makerspaces with the DesignPlus group. [2]\nThe blogger took 8.012, a proof-oriented mechanics course, in the fall through ESG. The same five students stayed together and took 8.022 in the spring with the same professor in the same room. [1]\nOne reason the author chose some hardware courses was access to resources that would be hard to reproduce independently, including cleanroom equipment and quantum optics hardware. Individual feedback and instructor access also mattered. [3]\nSources:\n  [1] [Guest Post] Reflecting on the great memories of my freshman year — https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/\n  [2] Pictures from a Month into Classes — https://mitadmissions.org/blogs/entry/pictures-from-a-month-into-classes/\n  [3] How I chose my classes — https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+      "retrieval": {
+        "section_semantic": {
+          "covered": [
+            [
+              "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+              [
+                "8.012",
+                "8.022"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:3",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Physics study group",
+                "position": 3,
+                "text": "Physics study group. The blogger often worked on physics problem sets with the four other 8.012 students. They also started getting a meal together every week and got to know one another outside class."
+              },
+              "distance": 0.45997536182403564
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:1",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "ESG community",
+                "position": 1,
+                "text": "ESG community. The blogger joined the Experimental Study Group (ESG) and took General Institute Requirements in small classes alongside other ESG students. The post mentions Friday community lunches cooked by students and a shared space where first-years could spend time."
+              },
+              "distance": 0.48777949810028076
+            },
+            {
+              "chunk": {
+                "id": "pictures-from-a-month-into-classes:4",
+                "source_id": "pictures-from-a-month-into-classes",
+                "title": "Pictures from a Month into Classes",
+                "url": "https://mitadmissions.org/blogs/entry/pictures-from-a-month-into-classes/",
+                "section": "Student communities",
+                "position": 4,
+                "text": "Student communities. Food-accessibility peers, the DesignPlus cohort, and the Chocolate City living community helped Richard find a place at MIT. Richard describes exploring makerspaces with the DesignPlus group."
+              },
+              "distance": 0.49006521701812744
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:2",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Fall and spring physics",
+                "position": 2,
+                "text": "Fall and spring physics. The blogger took 8.012, a proof-oriented mechanics course, in the fall through ESG. The same five students stayed together and took 8.022 in the spring with the same professor in the same room."
+              },
+              "distance": 0.4936027526855469
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:4",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Using campus resources",
+                "position": 4,
+                "text": "Using campus resources. One reason the author chose some hardware courses was access to resources that would be hard to reproduce independently, including cleanroom equipment and quantum optics hardware. Individual feedback and instructor access also mattered."
+              },
+              "distance": 0.52614426612854
+            }
+          ]
+        },
+        "section_hybrid": {
+          "covered": [
+            [
+              "pictures-from-a-month-into-classes",
+              [
+                "vertical garden",
+                "Haiti"
+              ]
+            ],
+            [
+              "my-first-week-of-classes-at-mit",
+              [
+                "water scarcity",
+                "heat waves",
+                "Navajo Nation"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "pictures-from-a-month-into-classes:4",
+                "source_id": "pictures-from-a-month-into-classes",
+                "title": "Pictures from a Month into Classes",
+                "url": "https://mitadmissions.org/blogs/entry/pictures-from-a-month-into-classes/",
+                "section": "Student communities",
+                "position": 4,
+                "text": "Student communities. Food-accessibility peers, the DesignPlus cohort, and the Chocolate City living community helped Richard find a place at MIT. Richard describes exploring makerspaces with the DesignPlus group."
+              },
+              "distance": 0.49006521701812744
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:1",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Three questions",
+                "position": 1,
+                "text": "Three questions. The author sorts elective choices into three questions: whether the class fits their circumstances that semester, whether it will be enjoyable and engaging, and what they will gain from taking it."
+              },
+              "distance": 0.5264224410057068
+            },
+            {
+              "chunk": {
+                "id": "my-first-week-of-classes-at-mit:1",
+                "source_id": "my-first-week-of-classes-at-mit",
+                "title": "my “first” “week” of “classes” at mit",
+                "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+                "section": "Terrascope project",
+                "position": 1,
+                "text": "Terrascope project. Suzuko describes Terrascope as a first-year learning community for environmental sustainability. The cohort's group project centered on water scarcity and heat waves in the Navajo Nation."
+              },
+              "distance": 0.608385443687439
+            },
+            {
+              "chunk": {
+                "id": "pictures-from-a-month-into-classes:2",
+                "source_id": "pictures-from-a-month-into-classes",
+                "title": "Pictures from a Month into Classes",
+                "url": "https://mitadmissions.org/blogs/entry/pictures-from-a-month-into-classes/",
+                "section": "DesignPlus vertical garden",
+                "position": 2,
+                "text": "DesignPlus vertical garden. Richard describes learning applied design through DesignPlus, a first-year learning community. The author was working with other students on a vertical garden project in Haiti."
+              },
+              "distance": 0.6166558265686035
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:1",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "ESG community",
+                "position": 1,
+                "text": "ESG community. The blogger joined the Experimental Study Group (ESG) and took General Institute Requirements in small classes alongside other ESG students. The post mentions Friday community lunches cooked by students and a shared space where first-years could spend time."
+              },
+              "distance": 0.48777949810028076
+            }
+          ]
+        },
+        "fixed_semantic": {
+          "covered": [
+            [
+              "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+              [
+                "8.012",
+                "8.022"
+              ]
+            ]
+          ],
+          "matches": [
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:3",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Fixed window",
+                "position": 3,
+                "text": "ourse, in the fall through ESG. The same five students stayed together and took 8.022 in the spring with the same professor in the same room. Physics study group. The blogger often worked on physics problem sets with the"
+              },
+              "distance": 0.482333779335022
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:4",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Fixed window",
+                "position": 4,
+                "text": "often worked on physics problem sets with the four other 8.012 students. They also started getting a meal together every week and got to know one another outside class. Office hours in ESG. During a busy week, the profes"
+              },
+              "distance": 0.4878655672073364
+            },
+            {
+              "chunk": {
+                "id": "how-i-chose-my-classes:1",
+                "source_id": "how-i-chose-my-classes",
+                "title": "How I chose my classes",
+                "url": "https://mitadmissions.org/blogs/entry/how-i-chose-my-classes/",
+                "section": "Fixed window",
+                "position": 1,
+                "text": "Three questions. The author sorts elective choices into three questions: whether the class fits their circumstances that semester, whether it will be enjoyable and engaging, and what they will gain from taking it. Schedu"
+              },
+              "distance": 0.4891766905784607
+            },
+            {
+              "chunk": {
+                "id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year:1",
+                "source_id": "guest-post-reflecting-on-the-great-memories-of-my-freshman-year",
+                "title": "[Guest Post] Reflecting on the great memories of my freshman year",
+                "url": "https://mitadmissions.org/blogs/entry/guest-post-reflecting-on-the-great-memories-of-my-freshman-year/",
+                "section": "Fixed window",
+                "position": 1,
+                "text": "ESG community. The blogger joined the Experimental Study Group (ESG) and took General Institute Requirements in small classes alongside other ESG students. The post mentions Friday community lunches cooked by students an"
+              },
+              "distance": 0.4910849928855896
+            },
+            {
+              "chunk": {
+                "id": "wouldve-couldve-shouldve:2",
+                "source_id": "wouldve-couldve-shouldve",
+                "title": "would’ve, could’ve, should’ve",
+                "url": "https://mitadmissions.org/blogs/entry/wouldve-couldve-shouldve/",
+                "section": "Fixed window",
+                "position": 2,
+                "text": "nts before declaring a major. First-year communities. Veronica knew students who enjoyed Terrascope and DesignPlus and sees these communities as low-pressure ways to meet classmates and faculty. DesignPlus staff let Vero"
+              },
+              "distance": 0.519080400466919
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "out_of_scope": {
+    "question": "Who won the 2018 FIFA World Cup?",
+    "response": "Answer: I don't have enough information in the collected student sources to answer that.",
+    "best_distance": 0.9168320298194885
+  },
+  "memory": {
+    "first_question": "Which first-year learning community did Richard join for applied design?",
+    "first_answer": "Answer: Richard describes learning applied design through DesignPlus, a first-year learning community. The author was working with other students on a vertical garden project in Haiti. [1]\nSources:\n  [1] Pictures from a Month into Classes — https://mitadmissions.org/blogs/entry/pictures-from-a-month-into-classes/",
+    "follow_up": "What did they build?",
+    "follow_up_answer": "Answer: Richard describes learning applied design through DesignPlus, a first-year learning community. The author was working with other students on a vertical garden project in Haiti. [1]\nSources:\n  [1] Pictures from a Month into Classes — https://mitadmissions.org/blogs/entry/pictures-from-a-month-into-classes/",
+    "fresh_answer": "Answer: A Discover Course 1 activity used paper and foam to make small wind turbines after researchers discussed modeling wind flows computationally. [1]\nThe author describes visiting Metropolis, a makerspace in the basement of Building 4. A mentor helped the team adapt a treadmill model and print it on a 3D printer. The post describes doing some training before using the space. [1]\nSources:\n  [1] my “first” “week” of “classes” at mit — https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/"
+  },
+  "filtered_hybrid": [
+    {
+      "chunk": {
+        "id": "my-first-week-of-classes-at-mit:1",
+        "source_id": "my-first-week-of-classes-at-mit",
+        "title": "my “first” “week” of “classes” at mit",
+        "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+        "section": "Terrascope project",
+        "position": 1,
+        "text": "Terrascope project. Suzuko describes Terrascope as a first-year learning community for environmental sustainability. The cohort's group project centered on water scarcity and heat waves in the Navajo Nation."
+      },
+      "distance": 0.3262563943862915
+    },
+    {
+      "chunk": {
+        "id": "my-first-week-of-classes-at-mit:2",
+        "source_id": "my-first-week-of-classes-at-mit",
+        "title": "my “first” “week” of “classes” at mit",
+        "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+        "section": "Group project transition",
+        "position": 2,
+        "text": "Group project transition. Suzuko sees Terrascope as a continuation of their Discover Course 1 pre-orientation experience because both involve group work on environmental problems. The author expected to grow by tackling open-ended problems with a group."
+      },
+      "distance": 0.36594247817993164
+    },
+    {
+      "chunk": {
+        "id": "my-first-week-of-classes-at-mit:5",
+        "source_id": "my-first-week-of-classes-at-mit",
+        "title": "my “first” “week” of “classes” at mit",
+        "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+        "section": "Makerspace access",
+        "position": 5,
+        "text": "Makerspace access. The author describes visiting Metropolis, a makerspace in the basement of Building 4. A mentor helped the team adapt a treadmill model and print it on a 3D printer. The post describes doing some training before using the space."
+      },
+      "distance": 0.8442981243133545
+    },
+    {
+      "chunk": {
+        "id": "my-first-week-of-classes-at-mit:4",
+        "source_id": "my-first-week-of-classes-at-mit",
+        "title": "my “first” “week” of “classes” at mit",
+        "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+        "section": "Building model turbines",
+        "position": 4,
+        "text": "Building model turbines. A Discover Course 1 activity used paper and foam to make small wind turbines after researchers discussed modeling wind flows computationally."
+      },
+      "distance": 0.865950345993042
+    },
+    {
+      "chunk": {
+        "id": "my-first-week-of-classes-at-mit:3",
+        "source_id": "my-first-week-of-classes-at-mit",
+        "title": "my “first” “week” of “classes” at mit",
+        "url": "https://mitadmissions.org/blogs/entry/my-first-week-of-classes-at-mit/",
+        "section": "Learning about transportation",
+        "position": 3,
+        "text": "Learning about transportation. During Discover Course 1, a module on transportation game theory had student teams take on roles such as public transportation authorities and bike-share companies."
+      },
+      "distance": 0.8696627020835876
+    }
+  ]
+}
